@@ -1,22 +1,65 @@
 aid: aurelius-systems
 name: Aurelius Systems
-description: 'Aurelius Systems is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: defense-government. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Aurelius Systems is a defense technology company building autonomous
+  directed-energy laser defense platforms for counter-unmanned-aerial-system (C-UAS)
+  missions. Its flagship product, Archimedes, fuses high-power lasers, advanced optical
+  sensing, and AI-guided autonomous tracking into a compact, field-deployable platform
+  that detects, tracks, and neutralizes Group 1 and Group 2 drone threats at the speed
+  of light and a fraction of the cost of traditional interceptors. The system runs
+  on grid, generator, or commercial off-the-shelf batteries, is designed to operate
+  without human operators, and can be networked into modular defensive grids to protect
+  troops, bases, and critical infrastructure. Founded in 2025 by Michael LaFramboise
+  and John Marmaduke, the company raised a $10M seed round co-led by General Catalyst
+  and Draper Associates and is partnered with American Rheinmetall. Aurelius currently
+  publishes no public API, developer portal, or software developer surface — it is a
+  directed-energy hardware company.'
 url: https://raw.githubusercontent.com/api-evangelist/aurelius-systems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.squarespace-cdn.com/content/v1/68af8d671c31502fa558a49a/a9558679-dbae-4ddf-b7b9-8f63c4858445/black+logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment: 'Enriched 2026-07-18: identity + domain-security probe. No public API/developer
+  surface exists (defense directed-energy hardware company); no API artifacts produced.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Defense Government
+- Directed Energy
+- Counter-UAS
+- Drone Defense
+- Autonomous Systems
+- Laser
+- National Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aurelius-systems-domain-security.yml
+- type: Website
+  url: https://aureliussystems.com/
+- type: Blog
+  url: https://aureliussystems.com/newsroom
+- type: Support
+  url: https://aureliussystems.com/contact
+- type: PrivacyPolicy
+  url: https://aureliussystems.com/privacy-policy
+- type: Careers
+  url: https://aureliussystems.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
